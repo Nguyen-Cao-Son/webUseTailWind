@@ -3,11 +3,12 @@ import { Link } from 'react-router-dom'
 
 const Hero = () => {
     return (
-        <div className='bg-white h-screen flex flex-col justify-center items-center'>
-            <h1 className='lg:text-9xl md:text-7xl sm:text-5xl text-3xl font-black md-14'>
-                none
+        <div className='bg-white h-fit flex flex-col items-center'>
+            <h1 className='lg:text-9xl md:text-7xl sm:text-5xl text-3xl font-black md-14 mb-10 mt-16'>
+                IPHONE 14 SEIRE
             </h1>
-            <Link to="/" className='py-6 px-10 bg-yellow-500 rounded-full text-3xl hover:bg-yellow-300 transition duration-300 ease-in-out flex items-center animation-bounce'>
+            <Link to="/" className='py-5 px-10 bg-yellow-500 rounded-full text-3xl hover:bg-yellow-300 
+            transition duration-300 ease-in-out flex items-center animate-bounce'>
                  ORDER NOW
                 <svg xmlns="http://www.w3.org/2000/svg"
                     className="h-6 w-6" fill="none" viewBox="0 0 24 24"
